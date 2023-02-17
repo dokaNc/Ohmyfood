@@ -1,0 +1,26 @@
+////////////////////
+// MEDIA QUERIES //
+//////////////////
+@media screen and (min-width: 992px) {
+  // FONCTIONNEMENT //
+  .entreprise .fonctionnement {
+    .button-group {
+      flex-direction: row;
+      gap: 2em;
+    }
+
+    a {
+      width: 33%;
+    }
+  }
+
+  // RESTAURANTS //
+  .restaurant article {
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    figure {
+      width: 49%;
+    }
+  }
+}

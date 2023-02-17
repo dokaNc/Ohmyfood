@@ -1,0 +1,23 @@
+/**********/
+/* LOADER */
+/**********/
+.loader {
+  animation-duration: 5s;
+  animation-name: showLoader;
+  animation-fill-mode: both;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  color: $primaire;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  i {
+    font-size: 3em;
+    animation-duration: 5s;
+    animation-name: spinLoader;
+  }
+}

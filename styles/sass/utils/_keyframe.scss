@@ -1,0 +1,29 @@
+/*************/
+/* KEYFRAMES */
+/*************/
+@keyframes FadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes showLoader {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes spinLoader {
+  100% {
+    transform: rotate(500deg);
+  }
+}
